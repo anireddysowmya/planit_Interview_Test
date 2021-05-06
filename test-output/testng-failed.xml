@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KindredGroup.Unibet.betPlacementScenario">
+      <class name="Planit.testCases.jupiterTest">
         <methods>
           <include name="driver"/>
-          <include name="clickOnLowPrice"/>
+          <include name="test_case4"/>
         </methods>
-      </class> <!-- KindredGroup.Unibet.betPlacementScenario -->
+      </class> <!-- Planit.testCases.jupiterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
